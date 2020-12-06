@@ -22,4 +22,8 @@ function mapToSquare (arr){
   return mapped;
 }
 
+function reduceToTotal(sourceArray,startingPoint){
+  
+}
+
 
