@@ -26,6 +26,10 @@ function reduceToTotal(sourceArray,startingPoint){
   const sum=sourceArray.reduce((accumulator,currentvalue)=>accumulator+currentvalue);
   return sum+startingPoint;
 }
+function reduceToTotal(sourceArray){
+  const sum=sourceArray.reduce((accumulator,currentvalue)=>accumulator+currentvalue);
+  return sum;
+}
 
 
 
