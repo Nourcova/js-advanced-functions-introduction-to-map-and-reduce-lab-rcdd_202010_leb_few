@@ -1,7 +1,6 @@
 // Your code here
 function mapToNegativize(arr){
-const mapped = arr.map(elem => {
-    return elem*-1});
+const mapped = arr.map(elem =>elem*-1);
   return mapped;
 }
 
