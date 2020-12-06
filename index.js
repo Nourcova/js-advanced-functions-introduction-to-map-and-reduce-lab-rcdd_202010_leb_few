@@ -32,6 +32,9 @@ function reduceToTotal(sourceArray,startingPoint){
   }
 }
 
+function reduceToAllTrue(sourceArray){
+  
+}
 
 
 
