@@ -1,1 +1,26 @@
 // Your code here
+function mapToNegativize(arr){
+const mapped = arr.map(elem => {
+    return elem*-1});
+  return mapped;
+}
+
+function mapToNoChange(arr){
+  const mapped=arr.map(elem=>{
+    return elem});
+  return mapped;
+}
+
+function mapToDouble(arr){
+  const mapped=arr.map(elem=>{
+    return elem*2});
+  return mapped;
+}
+
+function mapToSquare (arr){
+  const mapped=arr.map(elem=>{
+    return Math.pow(elem, 2);});
+  return mapped;
+}
+
+
