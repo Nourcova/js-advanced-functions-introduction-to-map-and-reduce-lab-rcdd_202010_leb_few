@@ -24,7 +24,12 @@ function mapToSquare (arr){
 
 function reduceToTotal(sourceArray,startingPoint){
   const sum=sourceArray.reduce((accumulator,currentvalue)=>accumulator+currentvalue);
+  if (startingPoint!=undefined){
   return sum+startingPoint;
+  }
+  else{
+    return sum;
+  }
 }
 
 
