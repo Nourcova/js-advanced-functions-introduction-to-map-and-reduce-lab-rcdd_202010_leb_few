@@ -23,7 +23,7 @@ function mapToSquare (arr){
 }
 
 function reduceToTotal(sourceArray,startingPoint){
-  const sum=
+  const sum=sourceArray.reduce()
 }
 
 
