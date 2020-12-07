@@ -39,11 +39,15 @@ const sum=sourceArray.reduce((accumulator,currentvalue)=>{
   if (currentvalue!==false){
   fuk++;
   }
-  if (fuk===len){
-    return true;
-  }
-  return false;
+return fuk
+  
 });
+if (fuk===len){
+  return true;
+}
+else{
+  return false;
+}
 }
 
 
