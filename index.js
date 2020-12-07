@@ -41,7 +41,7 @@ const sum=sourceArray.reduce((accumulator,currentvalue)=>{
   }
 return fuk
   
-});
+},0);
 if (fuk===len){
   return true;
 }
