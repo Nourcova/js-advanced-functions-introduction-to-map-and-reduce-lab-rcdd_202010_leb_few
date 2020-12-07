@@ -33,22 +33,23 @@ function reduceToTotal(sourceArray,startingPoint){
 }
 
 function reduceToAllTrue(sourceArray){
-let total=0
-let len=sourceArray.length;
-const sum=sourceArray.reduce((accumulator,currentvalue)=>{
-  if (currentvalue!=false){
-  total++;
+  let total=0
+  let len=sourceArray.length;
+  const sum=sourceArray.reduce((accumulator,currentvalue)=>{
+    if (currentvalue!=false){
+    total++;
+    }
+  return total
+    
+  },0);
+  if (total===len){
+    return true;
   }
-return total
-  
-},0);
-if (total===len){
-  return true;
+  else{
+    return false;
+  }
 }
-else{
-  return false;
-}
-}
+
 function reduceToAnyTrue(sourceArray){
   let total=0
   let len=sourceArray.length;
