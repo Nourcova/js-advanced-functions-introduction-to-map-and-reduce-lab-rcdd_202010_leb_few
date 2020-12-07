@@ -63,7 +63,7 @@ function reduceToAnyTrue(sourceArray){
   if (total!=0){
     return true;
   }
-  else {
+  if (total==0) {
     return false;
   }
 }
