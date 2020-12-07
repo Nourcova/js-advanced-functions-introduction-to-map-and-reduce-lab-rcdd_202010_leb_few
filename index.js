@@ -36,7 +36,7 @@ function reduceToAllTrue(sourceArray){
 let fuk=0
 let len=sourceArray.length;
 const sum=sourceArray.reduce((accumulator,currentvalue)=>{
-  if (currentvalue!==false){
+  if (currentvalue!=false){
   fuk++;
   }
 return fuk
