@@ -60,10 +60,10 @@ function reduceToAnyTrue(sourceArray){
   return total
     
   },0);
-  if (total===len){
+  if (total!=0){
     return true;
   }
-  else{
+  if (total!=len){
     return false;
   }
 }
